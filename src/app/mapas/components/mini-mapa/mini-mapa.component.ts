@@ -22,7 +22,7 @@ export class MiniMapaComponent implements AfterViewInit {
       container: this.divMapa.nativeElement,
       style: 'mapbox://styles/mapbox/streets-v11',
       center: this.lngLat,
-      zoom: 15,
+      zoom: 16,
       interactive: false
     });
 
